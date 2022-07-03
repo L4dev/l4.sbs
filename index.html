@@ -20,11 +20,8 @@ body {
     </head>
     <body>
         <script>
-            if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )     
-{
-   var url = "https://m.l4.sbs/";    
-   $(location).attr('href',url);
-
+if (screen.width <= 700) {
+window.location = "http://m.l4.sbs";
 }
 </script>
 <center>
